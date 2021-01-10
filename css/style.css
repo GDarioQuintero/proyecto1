@@ -9,7 +9,7 @@ html{
 .container-main{
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 98vw;
     height: auto;
     font-size: 1.6rem;
 }
