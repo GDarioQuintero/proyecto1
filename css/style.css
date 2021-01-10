@@ -69,3 +69,106 @@ html{
     padding: 1rem 2rem;
     border-radius: 1.3rem;
 }
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    height: auto;
+    font-size: 1.6rem;
+}
+
+.container-aside-nav{
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-list{
+    width: 100%;
+    height: 250px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10rem;
+    align-content: center;
+    justify-content: space-between;
+}
+.nav-list-item{
+    padding-bottom: 3rem;
+}
+.container-seccion-principal{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container-seccion-principal figure{
+    text-align: center;
+}
+.container-seccion-principal img{
+    width: 85%;
+    border-radius: 3rem;
+}
+.container-seccion-principal figcaption{
+    font-size: 1.4rem;
+}
+.container-seccion-principal h2{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.container-seccion-principal p{
+    text-align: justify;
+}
+.article-main-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.article-main-1 h2{
+    width: 100%;
+    order: 1;
+}
+.article-main-1 figure{
+    width: 50%;
+    order: 2;
+} 
+.article-main-1 p{
+    width: 50%;
+    order: 3
+} 
+.article-main-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+.article-main-2 h2{
+    width: 100%;
+    order: 1;
+}
+.article-main-2 figure{
+    width: 50%;
+    order: 3
+} 
+.article-main-2 p{
+    width: 50%;
+    order: 2
+} 
+.container-aside-videos{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-aside-videos video{
+    width: 70%;
+}
