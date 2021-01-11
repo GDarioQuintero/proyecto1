@@ -18,7 +18,7 @@ body{
     height: 100px;
     display: flex;
     flex-wrap: wrap;
-    background-color: orange;
+    background-color: rgb(45, 204, 31);
 }
 .container-logo{
     width: 20%;
